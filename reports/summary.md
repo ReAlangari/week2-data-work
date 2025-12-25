@@ -24,4 +24,20 @@
 3. **Monthly trend is distorted** by missing $100 order month
 4. **"Day 4 analysis" not possible** - data only goes to Dec 2
 
-## Next Ques
+## Next Questions (Require More Data)
+1. **Expansion:** How does performance scale with more orders?
+2. **Temporal:** What patterns emerge with full month of data?
+3. **Segmentation:** Do customer behaviors differ between SA and AE with larger samples?
+4. **Quality:** Why is the $100 order missing month data?
+
+## Immediate Actions Needed
+1. **Collect more data** before meaningful analysis (target: 100+ orders)
+2. **Fix the $100 order's** month assignment in source data
+3. **Extend date range** to include actual Day 4 (Dec 4, 2025)
+4. **Remove bootstrap analysis** until n>30 per country
+
+## ETL Success Metrics
+- **Rows Processed:** 5 orders successfully transformed
+- **Join Coverage:** 100% of orders matched with user data
+- **Schema Enforcement:** All required columns present and properly typed
+- **Output Generated:** Analytics table ready for analysis (despite small size)

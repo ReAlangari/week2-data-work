@@ -1,0 +1,12 @@
+{
+  "rows_in_orders_raw": 5,
+  "rows_in_users": 4,
+  "rows_out_analytics": 5,
+  "missing_created_at": 1,
+  "country_match_rate": 1.0,
+  "config": {
+    "raw_orders": "C:\\Users\\Remaa\\sadaia_boot_camp\\week2-data-work\\data\\raw\\orders.csv",
+    "raw_users": "C:\\Users\\Remaa\\sadaia_boot_camp\\week2-data-work\\data\\raw\\users.csv",
+    "out_analytics": "C:\\Users\\Remaa\\sadaia_boot_camp\\week2-data-work\\data\\processed\\analytics_table.parquet"
+  }
+}
